@@ -1,1 +1,9 @@
-
+echo "Current File : $0"
+echo "First Arguement : $1"
+echo  "Second Arguement : $2"
+echo "No. of argument : $#"
+echo "Quoted values : $@"
+echo "Quoted values:  $*"
+echo "Exist status: $?"
+echo "Process No.: $$"
+echo "Proces No. of last background command : $!"
